@@ -171,7 +171,7 @@ h4 {
 }
 
 .like {
-  background-image: url(/catlove_bg.png);
+  background-image: url(catlove_bg.png);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
