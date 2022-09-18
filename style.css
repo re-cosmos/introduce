@@ -1,0 +1,189 @@
+@font-face {
+  font-family: "Mogen";
+  src: url("./Mogen-Bold.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+body {
+  background-color: #eaeaea;
+  padding-top: 120px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px 40px;
+  background: #000000;
+}
+
+.navgator {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  background: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px;
+  padding: 0px;
+}
+
+.menu li {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 4px 0px;
+  width: 140px;
+  border: 1px solid #000000;
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-size: 14pt;
+}
+
+.logo {
+  position: relative;
+  margin-right: 1256px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #808080;
+}
+
+h1 {
+  font-family: "Mogen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0 auto 100px;
+  display: inline-block;
+}
+
+h2 {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+h3 {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+h4 {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px 0 140px 0;
+  margin: 0 0 140px 0;
+}
+
+.c_home {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.c_home img {
+  padding: 16px;
+  width: 1256px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 200%;
+  border: 2px solid #000000;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 246px 0 140px 0;
+  margin: 0 0 140px 0;
+}
+
+.c_about {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.t_about {
+  margin: 0 0 0 200px;
+}
+
+.t_about img {
+  padding: 0 8px 0 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.like {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 246px 0 140px 0;
+  margin: 0 0 140px 0;
+}
+
+.c_like {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c_like img {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #000000;
+  margin-right: 6px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 246px 0 140px 0;
+  margin: 0 0 140px 0;
+}
+
+.c_contact {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.t_contact {
+  margin: 40px 0 0 0;
+}
